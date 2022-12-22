@@ -1,6 +1,6 @@
-# ETH Daddy 
+# ETH Hoster #
 
-## Technology Stack & Tools
+Technology Stack & Tools
 
 - Solidity (Writing Smart Contracts & Tests)
 - Javascript (React & Testing)
@@ -8,24 +8,24 @@
 - [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
 - [React.js](https://reactjs.org/) (Frontend Framework)
 
-## Requirements For Initial Setup
+ Requirements For Initial Setup
 - Install [NodeJS](https://nodejs.org/en/)
 
-## Setting Up
-### 1. Clone/Download the Repository
+ Setting Up
+ 1. Download the Repository
 
-### 2. Install Dependencies:
+ 2. Install Dependencies:
 `$ npm install`
 
-### 3. Run tests
+ 3. Run tests
 `$ npx hardhat test`
 
-### 4. Start Hardhat node
+ 4. Start Hardhat node
 `$ npx hardhat node`
 
-### 5. Run deployment script
+ 5. Run deployment script
 In a separate terminal execute:
 `$ npx hardhat run ./scripts/deploy.js --network localhost`
 
-### 7. Start frontend
+ 7. Start frontend
 `$ npm run start`
